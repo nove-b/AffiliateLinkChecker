@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "amd",
+    "outFile": "content.js"
+  },
+  "include": [
+    "src/content.ts"
+  ]
+}

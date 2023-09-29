@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Sample",
+    "version": "1.0",
+    "description": "Sample 拡張機能",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "24": "icon.png",
+        "32": "icon.png"
+      },
+      "default_title": "action タイトル",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "js":  ["content.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+  }
