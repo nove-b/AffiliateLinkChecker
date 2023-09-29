@@ -5,16 +5,20 @@ window.onload = function () {
         return regex.test(aTags.href);
     });
     affiliateLinks.forEach(el => {
+
+
         el.style.outline = "2px solid red";
         el.style.outlineOffset = "4px";
-        const linkFirstElement = el.firstChild;
+        const linkFirstElement = el.firstChild
         if (!linkTextIsImage(linkFirstElement)) {
-            const linkText = el.textContent;
-            el.innerText = `💰${linkText}`;
+            const linkText = el.textContent
+            el.innerText = `💰${linkText}`
         }
     });
 };
+
 // aタグの中身が画像かどうか判定する
-const linkTextIsImage = (node) => {
-    return node.nodeName === 'IMG';
-};
+const linkTextIsImage = (node): Boolean => {
+    return node.nodeName === 'IMG'
+
+}

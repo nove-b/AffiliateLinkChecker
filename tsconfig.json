@@ -5,6 +5,7 @@
     "outFile": "content.js"
   },
   "include": [
-    "src/content.ts"
+    "src/assets/ts/content.ts",
+    
   ]
 }

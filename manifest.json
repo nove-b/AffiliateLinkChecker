@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Sample",
+    "name": "AffiliateLinkChecker",
     "version": "1.0",
-    "description": "Sample 拡張機能",
+    "description": "ブログに埋め込まれたアフェリエイトリンクをチェックするChromeの拡張機能🔍🛡️",
     "icons": {
       "16": "icon.png",
       "48": "icon.png",
