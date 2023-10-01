@@ -24,7 +24,7 @@ URLの追加やバグ報告はGithubのIssueや[メール](mailto:nove.b.web@gma
 
 ## HOW TO USE
 
-1. リリースページ](https://github.com/nove-b/AffiliateLinkChecker/releases)から最新版のインストールパッケージをダウンロードし、適当なフォルダに解凍してください。
+1. [リリースページ](https://github.com/nove-b/AffiliateLinkChecker/releases)から最新版のインストールパッケージをダウンロードし、適当なフォルダに解凍してください。
 2. 拡張機能の管理へ入ってください。Chromeはメニューの「その他のツール」-「拡張機能」、Edgeはメニューの「拡張機能」を選択します。
 3. 拡張機能の管理ページで「開発者モード」を有効にしてください。
 4. Chromeでは「パッケージ化されていない拡張機能を読み込む」、Edgeでは   「展開して読み込み」を選択して、インストールパッケージを解凍したフォルダを選択してください。
